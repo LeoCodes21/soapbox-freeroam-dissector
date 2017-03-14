@@ -1,11 +1,3 @@
---
--- Created by IntelliJ IDEA.
--- User: heyitsleo
--- Date: 3/13/17
--- Time: 7:27 AM
--- To change this template use File | Settings | File Templates.
---
-
 -- includes
 dofile(SOAPBOX_FREEROAM_PATH .. "soapbox-packet-types.lua") -- packet type detection
 dofile(SOAPBOX_FREEROAM_PATH .. "soapbox-dissector-hello.lua") -- hello protocol

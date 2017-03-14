@@ -1,10 +1,3 @@
---
--- Created by IntelliJ IDEA.
--- User: heyitsleo
--- Date: 3/13/17
--- Time: 8:54 PM
--- To change this template use File | Settings | File Templates.
---
 function setHelloFields(buf, pkt, subtree)
     local cli_cli_type = detectDirection(pkt)
     pkt.cols.protocol = 'SB-HELLO'

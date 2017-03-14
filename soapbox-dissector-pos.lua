@@ -1,10 +1,3 @@
---
--- Created by IntelliJ IDEA.
--- User: heyitsleo
--- Date: 3/13/17
--- Time: 8:54 PM
--- To change this template use File | Settings | File Templates.
---
 function setPosFields(buf, pkt, subtree)
 --    setCountField(buf, pkt, subtree)
     local cli_cli_type = detectDirection(pkt)
