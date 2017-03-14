@@ -21,7 +21,7 @@ end
 --     Client: hello, pos, sync???
 --     Server: hello-ok, modified-pos
 -- There may be more.
--- Returns structure: { dir: 'c' or 's', type: 'typehere' }
+-- Returns structure: { dir: 'c->s' or 's->c', type: 'typehere' }
 function determineType(buf, pkt)
     -- Bytes
     local bytes = buf(0):bytes()
